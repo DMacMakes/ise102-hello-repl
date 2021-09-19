@@ -1,0 +1,1 @@
+run = "clang++-7 -I. -I./include -std=c++17 -pthread -o my-program main.cpp lib/libscn.a lib/libfmt.a && clear && ./my-program"
